@@ -78,10 +78,10 @@ while true; do
             fi
 
             echo "Choose a project type:"
-            echo "1) new-avalonia (Default MVVM Project using the stable version)"
-            echo "2) new-avalonia-latest (MVVM Project using the latest available preview version)"
-            echo "3) new-avalonia-community (MVVM Project using the stable version + community toolkit)"
-            echo "4) new-avalonia-community-latest (MVVM Project using the latest available preview version + community toolkit)"
+            echo "1) Default MVVM Project using the stable version"
+            echo "2) MVVM Project using the latest available preview version"
+            echo "3) MVVM Project using the stable version + community toolkit"
+            echo "4) MVVM Project using the latest available preview version + community toolkit"
             read -p "Enter the number corresponding to the project type: " project_type
             echo
 
