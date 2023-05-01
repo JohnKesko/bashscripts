@@ -1,6 +1,8 @@
 ## Bash-scripts
 
-avalonia.sh | Simple script to create a Avalonia MVVM project with a default location and start it with rider.
+
+***
+***avalonia.sh*** | Simple script to create a Avalonia MVVM project with a default location and start it with rider.
 
 
 1. Create a folder for your Avalonia projects somewhere.
@@ -21,4 +23,19 @@ alias new-avalonia="/path/to/scripts/new-avalonia.sh"
 
 5. Done.
 
-![screenshot](screenshot.png)
+![screenshot](img/screenshot-avalonia.png)
+
+***
+
+***vscode-extensions.sh*** | Simple script to remove vscode extensions, either a single one or all of them.
+
+1. Assuming default location: ```default_location="$HOME/.vscode/extensions"```
+2. Add alias for the terminal. 
+- Example: nano .zshrc
+```    
+# Create Avalonia Apps
+alias delete-vscode-extensions="/path/to/scripts/vscode-extensions.sh"
+```
+3. Restart terminal.
+
+![screenshot](img/screenshot-vscode.png)
