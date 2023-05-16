@@ -33,7 +33,7 @@ alias new-avalonia="/path/to/scripts/new-avalonia.sh"
 2. Add alias for the terminal. 
 - Example: nano .zshrc
 ```    
-# Create Avalonia Apps
+# Delete extension
 alias delete-vscode-extensions="/path/to/scripts/vscode-extensions.sh"
 ```
 3. Restart terminal.
