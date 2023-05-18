@@ -9,7 +9,7 @@ create_new_avalonia() {
 }
 
 create_new_avalonia_latest() {
-    dotnet new avalonia.mvvm -o "$save_location/$nameOfMyProject" -av 11.0.0-preview7
+    dotnet new avalonia.mvvm -o "$save_location/$nameOfMyProject" -av 11.0.0-preview8
 }
 
 create_new_avalonia_community() {
@@ -17,7 +17,7 @@ create_new_avalonia_community() {
 }
 
 create_new_avalonia_community_latest() {
-    dotnet new avalonia.mvvm -o "$save_location/$nameOfMyProject" -m CommunityToolkit -av 11.0.0-preview7
+    dotnet new avalonia.mvvm -o "$save_location/$nameOfMyProject" -m CommunityToolkit -av 11.0.0-preview8
 }
 
 # Function to delete a Project in the default directory.
